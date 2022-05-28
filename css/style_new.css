@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+width: 100vw;
+height: 100vh;
+/* vw 1=寬度的百分之一，100vw = 100的螢幕寬度 */
+/* vh 1=高度的百分之一，100vh = 100的螢幕高度 */
+background: linear-gradient(0deg, rgb(208, 208, 208) 0%, rgba(219,219,219,1) 47%, rgba(255,255,255,1) 100%);
+overflow: hidden;
+}
+
+.card {
+    width: 800px;
+    height: 540px;
+    background-color: #ffffff;
+    /* margin-top: 50px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin可設定為上 左右 下 3個值 */
+    margin: 50px auto 0;
+    box-shadow: 10px 10px 30px 2px rgba(186, 186, 186, 0.697);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card .image {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(117, 255, 248);
+    display: inline-block;
+    position: relative;
+}
+
+.card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .image .icon-text {
+    position: absolute;
+    bottom: -1px;
+    left: 17px;
+}
+
+.card .image .icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(76, 102, 233);
+}
+
+.card .image p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+}
+
+.card .info {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* .card .info .name {
+    font-size: 46px;
+    font-weight: 800;
+    color: rgb(110, 110, 110);
+    margin: 42px 0px 0px 35px;
+}
+
+.card .info .st {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(157, 157, 157);
+    margin: 25px 0px 0px 35px;
+}
+
+.card .info .divide {
+    width: 333px;
+    border: none;
+    border-top: 1px solid rgb(218, 218, 218);
+    margin: 28px 0px 0px 35px;
+}
+
+.card .info .price {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(157, 157, 157);
+    margin: 22px 0px 0px 35px;
+}
+
+.card .info .price span {
+    color: rgb(78, 182, 251);
+
+}
+
+.card .info .desc {
+    color: rgb(157, 157, 157);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 22px 35px 20px 35px;
+    line-height: 32px;
+}
+
+.card .link {
+    margin: 0px 0px 0px 35px;
+    font-weight: 500;
+    color: rgb(211, 211, 211);
+    text-decoration:none;
+} */
